@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1>Ohai!</h1>
+    </body>
+
+    <script>
+var socket = new WebSocket('ws://localhost:8081/connect');
+
+socket.onopen = function() {
+    console.log('connected');
+    socket.send('ohai');
+};
+    </script>
+</html>

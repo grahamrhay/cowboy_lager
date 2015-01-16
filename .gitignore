@@ -1,0 +1,6 @@
+*.swp
+.erlang.mk.packages.v2
+.vagrant/
+_rel/
+deps/
+ebin/
